@@ -13,7 +13,7 @@ exports.action = {
   inputs: {},
 
   run: function(api, data, next){
-    var error = null;
+    let error = null;
     // your logic here
     next(error);
   }
